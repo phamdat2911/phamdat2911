@@ -24,3 +24,4 @@ C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.genruntimecon
 C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.xoa.resources
 C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.MaBenhNhan_sua.resources
 C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.sua.resources
+C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.Properties.Resources.resources

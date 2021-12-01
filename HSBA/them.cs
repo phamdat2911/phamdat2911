@@ -16,6 +16,8 @@ namespace HSBA
         {
             InitializeComponent();
             this.f = f;
+            this.ActiveControl = txtmbn;
+            txtmbn.Focus();
         }
 
         SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-O063M990\SQLEXPRESS;Initial Catalog=HSBA;Integrated Security=True");
@@ -36,6 +38,11 @@ namespace HSBA
             conn.Close();
             f.load();
             this.Close();
+        }
+
+        private void them_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

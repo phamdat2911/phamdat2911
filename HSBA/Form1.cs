@@ -29,6 +29,15 @@ namespace HSBA
             dgvload.DataSource = dt;
         }
 
+        public void load1()
+        {
+            string query = "select maba, hoten, tenBa, tenBs, ngaykham, loaiXN, ngaylapBa, chuandoan, dienbien from Info_BenhAn, Info_patient where Info_BenhAn.mabn = Info_patient.mabn";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            dgvba.DataSource = dt;
+        }
         public void loadByMabn()
         {
             string query = string.Format("select * from Info_patient where mabn like '%{0}%'",txttk.Text.Trim());
@@ -40,8 +49,10 @@ namespace HSBA
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+
             conn.Open();
             load();
+            load1();
             conn.Close();
         }
 
@@ -81,13 +92,14 @@ namespace HSBA
                 cbbnhommau.Text = dgvload.Rows[e.RowIndex].Cells["nhommau"].Value.ToString();
                 txtdiung.Text = dgvload.Rows[e.RowIndex].Cells["DiUngThuoc"].Value.ToString();
                 txtstatus.Text = dgvload.Rows[e.RowIndex].Cells["status"].Value.ToString();
-                txtmba.Text = dgvload.Rows[e.RowIndex].Cells["maba"].Value.ToString();
             }
         }
 
-        private void btntk_Click(object sender, EventArgs e)
+       
+
+        private void txttk_TextChanged(object sender, EventArgs e)
         {
-            if(txttk.Text == "")
+            if (txttk.Text == "")
             {
                 conn.Open();
                 load();
@@ -99,8 +111,11 @@ namespace HSBA
                 loadByMabn();
                 conn.Close();
             }
-            
-            
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

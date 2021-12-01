@@ -45,5 +45,10 @@ namespace HSBA
             f.load();
             this.Close();
         }
+
+        private void sua_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

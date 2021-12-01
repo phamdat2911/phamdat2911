@@ -383,6 +383,7 @@ namespace HSBA
             this.Name = "sua";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "sua";
+            this.Load += new System.EventHandler(this.sua_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
