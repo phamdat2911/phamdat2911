@@ -49,7 +49,8 @@ namespace HSBA
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            Login lg = new Login();
+            lg.ShowDialog();
             conn.Open();
             load();
             load1();
