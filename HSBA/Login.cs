@@ -60,6 +60,7 @@ namespace HSBA
             else
             {
                 MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu !!");
+                return;
             }
         }
 

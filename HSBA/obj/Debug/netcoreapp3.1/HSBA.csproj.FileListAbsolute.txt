@@ -26,3 +26,7 @@ C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.MaBenhNhan_su
 C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.sua.resources
 C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.Properties.Resources.resources
 C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.Login.resources
+C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.them_BA.resources
+C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.sua_BA.resources
+C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.MaBenhAn_sua.resources
+C:\Users\phamd\source\repos\HSBA\HSBA\obj\Debug\netcoreapp3.1\HSBA.xoa_BA.resources

@@ -42,13 +42,11 @@ namespace HSBA
             this.txtcmnd = new System.Windows.Forms.TextBox();
             this.txtsdt = new System.Windows.Forms.TextBox();
             this.txtstatus = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.txtmaba = new System.Windows.Forms.TextBox();
             this.txtdantoc = new System.Windows.Forms.TextBox();
             this.txtjob = new System.Windows.Forms.TextBox();
             this.txtdiungthuoc = new System.Windows.Forms.TextBox();
@@ -129,7 +127,7 @@ namespace HSBA
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(521, 361);
+            this.label8.Location = new System.Drawing.Point(495, 314);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(83, 20);
             this.label8.TabIndex = 0;
@@ -165,24 +163,15 @@ namespace HSBA
             // 
             // txtstatus
             // 
-            this.txtstatus.Location = new System.Drawing.Point(629, 358);
+            this.txtstatus.Location = new System.Drawing.Point(603, 311);
             this.txtstatus.Name = "txtstatus";
             this.txtstatus.Size = new System.Drawing.Size(210, 27);
             this.txtstatus.TabIndex = 1;
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(521, 92);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(96, 20);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Mã Bệnh Án :";
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(521, 142);
+            this.label10.Location = new System.Drawing.Point(495, 95);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(68, 20);
             this.label10.TabIndex = 0;
@@ -191,7 +180,7 @@ namespace HSBA
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(521, 188);
+            this.label11.Location = new System.Drawing.Point(495, 141);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(102, 20);
             this.label11.TabIndex = 0;
@@ -200,7 +189,7 @@ namespace HSBA
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(520, 233);
+            this.label12.Location = new System.Drawing.Point(494, 186);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(84, 20);
             this.label12.TabIndex = 0;
@@ -209,7 +198,7 @@ namespace HSBA
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(521, 275);
+            this.label13.Location = new System.Drawing.Point(495, 228);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(90, 20);
             this.label13.TabIndex = 0;
@@ -218,37 +207,29 @@ namespace HSBA
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(521, 317);
+            this.label14.Location = new System.Drawing.Point(495, 270);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(102, 20);
             this.label14.TabIndex = 0;
             this.label14.Text = "Dị ứng thuốc :";
             // 
-            // txtmaba
-            // 
-            this.txtmaba.Enabled = false;
-            this.txtmaba.Location = new System.Drawing.Point(629, 89);
-            this.txtmaba.Name = "txtmaba";
-            this.txtmaba.Size = new System.Drawing.Size(210, 27);
-            this.txtmaba.TabIndex = 1;
-            // 
             // txtdantoc
             // 
-            this.txtdantoc.Location = new System.Drawing.Point(629, 139);
+            this.txtdantoc.Location = new System.Drawing.Point(603, 92);
             this.txtdantoc.Name = "txtdantoc";
             this.txtdantoc.Size = new System.Drawing.Size(210, 27);
             this.txtdantoc.TabIndex = 1;
             // 
             // txtjob
             // 
-            this.txtjob.Location = new System.Drawing.Point(629, 185);
+            this.txtjob.Location = new System.Drawing.Point(603, 138);
             this.txtjob.Name = "txtjob";
             this.txtjob.Size = new System.Drawing.Size(210, 27);
             this.txtjob.TabIndex = 1;
             // 
             // txtdiungthuoc
             // 
-            this.txtdiungthuoc.Location = new System.Drawing.Point(629, 317);
+            this.txtdiungthuoc.Location = new System.Drawing.Point(603, 270);
             this.txtdiungthuoc.Name = "txtdiungthuoc";
             this.txtdiungthuoc.Size = new System.Drawing.Size(210, 27);
             this.txtdiungthuoc.TabIndex = 1;
@@ -295,7 +276,7 @@ namespace HSBA
             "Hộ Cận Nghèo",
             "Hộ Chính Sách",
             "Khác"});
-            this.cbbdoituong.Location = new System.Drawing.Point(629, 226);
+            this.cbbdoituong.Location = new System.Drawing.Point(603, 179);
             this.cbbdoituong.Name = "cbbdoituong";
             this.cbbdoituong.Size = new System.Drawing.Size(210, 28);
             this.cbbdoituong.TabIndex = 3;
@@ -311,7 +292,7 @@ namespace HSBA
             "O",
             "AB",
             "Khác"});
-            this.cbbnhommau.Location = new System.Drawing.Point(629, 273);
+            this.cbbnhommau.Location = new System.Drawing.Point(603, 226);
             this.cbbnhommau.Name = "cbbnhommau";
             this.cbbnhommau.Size = new System.Drawing.Size(210, 28);
             this.cbbnhommau.TabIndex = 3;
@@ -342,6 +323,7 @@ namespace HSBA
             this.txtmabn.Name = "txtmabn";
             this.txtmabn.Size = new System.Drawing.Size(210, 27);
             this.txtmabn.TabIndex = 1;
+            this.txtmabn.TextChanged += new System.EventHandler(this.txtmabn_TextChanged);
             // 
             // sua
             // 
@@ -361,7 +343,6 @@ namespace HSBA
             this.Controls.Add(this.txtjob);
             this.Controls.Add(this.txtdantoc);
             this.Controls.Add(this.txtdiachi);
-            this.Controls.Add(this.txtmaba);
             this.Controls.Add(this.txtmabn);
             this.Controls.Add(this.txthoten);
             this.Controls.Add(this.label14);
@@ -374,7 +355,6 @@ namespace HSBA
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label3);
@@ -404,13 +384,11 @@ namespace HSBA
         private System.Windows.Forms.TextBox txtcmnd;
         private System.Windows.Forms.TextBox txtsdt;
         private System.Windows.Forms.TextBox txtstatus;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox txtmaba;
         private System.Windows.Forms.TextBox txtdantoc;
         private System.Windows.Forms.TextBox txtjob;
         private System.Windows.Forms.TextBox txtdiungthuoc;

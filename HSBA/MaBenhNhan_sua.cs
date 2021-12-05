@@ -26,5 +26,10 @@ namespace HSBA
             sua.Show();
             this.Close();
         }
+
+        private void MaBenhNhan_sua_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

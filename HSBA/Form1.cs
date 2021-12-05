@@ -114,9 +114,47 @@ namespace HSBA
             }
         }
 
+        public void loadbymbn()
+        {
+      
+        }
+
         private void tabPage2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox2.DataBindings.Add("Text", dgvba.DataSource, "chuandoan");
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnthemba_Click(object sender, EventArgs e)
+        {
+            them_BA them = new them_BA(this);
+            them.Show();
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnsuaba_Click(object sender, EventArgs e)
+        {
+            MaBenhAn_sua sua = new MaBenhAn_sua(this);
+            sua.Show();
+        }
+
+        private void btnxoaba_Click(object sender, EventArgs e)
+        {
+            xoa_BA xoa = new xoa_BA(this);
+            xoa.Show();
         }
     }
 }

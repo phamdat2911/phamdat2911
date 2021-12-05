@@ -1,7 +1,7 @@
 ﻿
 namespace HSBA
 {
-    partial class xoa
+    partial class xoa_BA
     {
         /// <summary>
         /// Required designer variable.
@@ -29,72 +29,60 @@ namespace HSBA
         /// </summary>
         private void InitializeComponent()
         {
-            this.label16 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtmabn = new System.Windows.Forms.TextBox();
+            this.txtxoa = new System.Windows.Forms.TextBox();
             this.btnxoa = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(205, 28);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(235, 41);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "Xóa Bệnh Nhân";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(147, 99);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(92, 102);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 20);
+            this.label1.Size = new System.Drawing.Size(165, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mã Bệnh Nhân :";
+            this.label1.Text = "Nhập Mã Bệnh Án :";
             // 
-            // txtmabn
+            // txtxoa
             // 
-            this.txtmabn.Location = new System.Drawing.Point(293, 96);
-            this.txtmabn.Name = "txtmabn";
-            this.txtmabn.Size = new System.Drawing.Size(215, 27);
-            this.txtmabn.TabIndex = 1;
+            this.txtxoa.Location = new System.Drawing.Point(317, 101);
+            this.txtxoa.Name = "txtxoa";
+            this.txtxoa.Size = new System.Drawing.Size(201, 27);
+            this.txtxoa.TabIndex = 1;
             // 
             // btnxoa
             // 
-            this.btnxoa.Location = new System.Drawing.Point(262, 170);
+            this.btnxoa.Location = new System.Drawing.Point(230, 177);
             this.btnxoa.Name = "btnxoa";
-            this.btnxoa.Size = new System.Drawing.Size(112, 53);
+            this.btnxoa.Size = new System.Drawing.Size(115, 49);
             this.btnxoa.TabIndex = 2;
             this.btnxoa.Text = "Xóa";
             this.btnxoa.UseVisualStyleBackColor = true;
             this.btnxoa.Click += new System.EventHandler(this.btnxoa_Click);
             // 
-            // xoa
+            // xoa_BA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(628, 255);
+            this.ClientSize = new System.Drawing.Size(634, 277);
             this.Controls.Add(this.btnxoa);
-            this.Controls.Add(this.txtmabn);
+            this.Controls.Add(this.txtxoa);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.label16);
-            this.Name = "xoa";
+            this.Name = "xoa_BA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "xoa";
-            this.Load += new System.EventHandler(this.xoa_Load);
+            this.Text = "xoa_BA";
+            this.Load += new System.EventHandler(this.xoa_BA_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        
-        private System.Windows.Forms.Label label16;
+
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtmabn;
+        private System.Windows.Forms.TextBox txtxoa;
         private System.Windows.Forms.Button btnxoa;
     }
 }

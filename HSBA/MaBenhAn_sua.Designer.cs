@@ -1,7 +1,7 @@
 ﻿
 namespace HSBA
 {
-    partial class MaBenhNhan_sua
+    partial class MaBenhAn_sua
     {
         /// <summary>
         /// Required designer variable.
@@ -30,52 +30,51 @@ namespace HSBA
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtmabn = new System.Windows.Forms.TextBox();
-            this.btntieptuc = new System.Windows.Forms.Button();
+            this.txtmba = new System.Windows.Forms.TextBox();
+            this.btntiep = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(133, 99);
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(108, 64);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 23);
+            this.label1.Size = new System.Drawing.Size(170, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mã Bệnh Nhân :";
+            this.label1.Text = "Nhập Mã Bệnh Án : ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // txtmabn
+            // txtmba
             // 
-            this.txtmabn.Location = new System.Drawing.Point(296, 96);
-            this.txtmabn.Multiline = true;
-            this.txtmabn.Name = "txtmabn";
-            this.txtmabn.Size = new System.Drawing.Size(251, 34);
-            this.txtmabn.TabIndex = 1;
+            this.txtmba.Location = new System.Drawing.Point(321, 63);
+            this.txtmba.Name = "txtmba";
+            this.txtmba.Size = new System.Drawing.Size(195, 27);
+            this.txtmba.TabIndex = 1;
             // 
-            // btntieptuc
+            // btntiep
             // 
-            this.btntieptuc.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btntieptuc.Location = new System.Drawing.Point(281, 185);
-            this.btntieptuc.Name = "btntieptuc";
-            this.btntieptuc.Size = new System.Drawing.Size(139, 62);
-            this.btntieptuc.TabIndex = 2;
-            this.btntieptuc.Text = "Tiếp";
-            this.btntieptuc.UseVisualStyleBackColor = true;
-            this.btntieptuc.Click += new System.EventHandler(this.btntieptuc_Click);
+            this.btntiep.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btntiep.Location = new System.Drawing.Point(244, 139);
+            this.btntiep.Name = "btntiep";
+            this.btntiep.Size = new System.Drawing.Size(116, 54);
+            this.btntiep.TabIndex = 2;
+            this.btntiep.Text = "Tiếp Tục";
+            this.btntiep.UseVisualStyleBackColor = true;
+            this.btntiep.Click += new System.EventHandler(this.btntiep_Click);
             // 
-            // MaBenhNhan_sua
+            // MaBenhAn_sua
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(708, 310);
-            this.Controls.Add(this.btntieptuc);
-            this.Controls.Add(this.txtmabn);
+            this.ClientSize = new System.Drawing.Size(628, 261);
+            this.Controls.Add(this.btntiep);
+            this.Controls.Add(this.txtmba);
             this.Controls.Add(this.label1);
-            this.Name = "MaBenhNhan_sua";
+            this.Name = "MaBenhAn_sua";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Nhập Mã Bệnh Nhân";
-            this.Load += new System.EventHandler(this.MaBenhNhan_sua_Load);
+            this.Text = "MaBenhAn_sua";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -84,7 +83,7 @@ namespace HSBA
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtmabn;
-        private System.Windows.Forms.Button btntieptuc;
+        private System.Windows.Forms.TextBox txtmba;
+        private System.Windows.Forms.Button btntiep;
     }
 }

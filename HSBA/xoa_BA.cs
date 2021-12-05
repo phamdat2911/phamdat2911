@@ -9,10 +9,10 @@ using System.Windows.Forms;
 
 namespace HSBA
 {
-    public partial class xoa : Form
+    public partial class xoa_BA : Form
     {
         Form1 f;
-        public xoa(Form1 f)
+        public xoa_BA(Form1 f)
         {
             InitializeComponent();
             this.f = f;
@@ -20,18 +20,17 @@ namespace HSBA
 
 
         SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-O063M990\SQLEXPRESS;Initial Catalog=HSBA;Integrated Security=True");
-
         private void btnxoa_Click(object sender, EventArgs e)
         {
             DialogResult rs = MessageBox.Show("Bạn có chăc muốn xóa không ?", "Thông Báo", MessageBoxButtons.YesNo);
             if(rs == DialogResult.Yes)
             {
                 conn.Open();
-                string query = string.Format("delete from Info_patient where mabn = '{0}'", txtmabn.Text);
+                string query = string.Format("delete from Info_BenhAn where maba = '{0}'", txtxoa.Text);
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.ExecuteNonQuery();
                 conn.Close();
-                f.load();
+                f.load1();
                 this.Close();
             }
             else
@@ -40,7 +39,7 @@ namespace HSBA
             }
         }
 
-        private void xoa_Load(object sender, EventArgs e)
+        private void xoa_BA_Load(object sender, EventArgs e)
         {
 
         }
