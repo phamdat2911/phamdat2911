@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\phamd\\source\\repos\\HSBA\\HSBA\\HSBA.csproj",
+      "projectUniqueName": "C:\\Users\\phamd\\Desktop\\phamdat2911\\HSBA\\HSBA.csproj",
       "projectName": "HSBA",
-      "projectPath": "C:\\Users\\phamd\\source\\repos\\HSBA\\HSBA\\HSBA.csproj",
+      "projectPath": "C:\\Users\\phamd\\Desktop\\phamdat2911\\HSBA\\HSBA.csproj",
       "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\phamd\\source\\repos\\HSBA\\HSBA\\obj\\",
+      "outputPath": "C:\\Users\\phamd\\Desktop\\phamdat2911\\HSBA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",

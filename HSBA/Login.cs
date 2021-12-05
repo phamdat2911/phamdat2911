@@ -50,30 +50,39 @@ namespace HSBA
                 errorProvider1.SetError(txtpass, null);
             }
         }
-
+        public string s = "123456";
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            if(txtname.Text.Equals("admin") && txtpass.Text.Equals("2911"))
+
+            if(txtname.Text == "admin" && txtpass.Text == s)
             {
-                this.Close();
+                MessageBox.Show("Đăng nhập thành công!!", "Thông báo");
+                fHoSoBenhAn f = new fHoSoBenhAn(this);
+                this.Hide();
+                f.ShowDialog();
+                this.Show();
             }
             else
             {
-                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu !!");
-                return;
+                MessageBox.Show("Đăng nhập thất bại!!!\t\nVui lòng kiểm tra lại mật khẩu", "Thông báo");
             }
         }
-
-        private void btnthoat_Click(object sender, EventArgs e)
+        public void setName(string name)
         {
-            DialogResult rs = MessageBox.Show("Bạn có muốn thoát không ??", "Thông báo", MessageBoxButtons.YesNo);
-            if(rs == DialogResult.Yes)
+            s = name;
+            txtpass.Text = s;
+
+        }
+
+        private void ckbHienMK_CheckedChanged(object sender, EventArgs e)
+        {
+            if(ckbHienMK.Checked == true)
             {
-                Application.Exit();
+                txtpass.PasswordChar = (char)0; 
             }
             else
             {
-                return;
+                txtpass.PasswordChar = '*';
             }
         }
     }

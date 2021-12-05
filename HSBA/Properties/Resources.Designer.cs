@@ -73,9 +73,29 @@ namespace HSBA.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dich_vu_thiet_ke_logo_benh_vien_dep_gia_re_03 {
+            get {
+                object obj = ResourceManager.GetObject("dich-vu-thiet-ke-logo-benh-vien-dep-gia-re-03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap login {
             get {
                 object obj = ResourceManager.GetObject("login", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nen {
+            get {
+                object obj = ResourceManager.GetObject("nen", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
