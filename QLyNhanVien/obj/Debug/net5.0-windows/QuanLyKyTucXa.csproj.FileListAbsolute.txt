@@ -132,3 +132,6 @@ C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\ref\Quan
 C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\QuanLyKyTucXa.pdb
 C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\QuanLyKyTucXa.genruntimeconfig.cache
 C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\QuanLyKyTucXa.fdangkyphong.resources
+C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\QuanLyKyTucXa.ftimkiem.resources
+C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\QuanLyKyTucXa.fThongke_PhongNotFull.resources
+C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\QuanLyKyTucXa.fthongkesinhvientheophong.resources

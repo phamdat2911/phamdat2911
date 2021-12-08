@@ -44,7 +44,8 @@ namespace QuanLyKyTucXa
             this.label5 = new System.Windows.Forms.Label();
             this.txtSLMax = new System.Windows.Forms.TextBox();
             this.txtSLReal = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnthem = new System.Windows.Forms.Button();
+            this.btnxoa = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -206,22 +207,33 @@ namespace QuanLyKyTucXa
             this.txtSLReal.Size = new System.Drawing.Size(174, 30);
             this.txtSLReal.TabIndex = 1;
             // 
-            // button1
+            // btnthem
             // 
-            this.button1.Location = new System.Drawing.Point(40, 296);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 46);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnthem.Location = new System.Drawing.Point(40, 296);
+            this.btnthem.Name = "btnthem";
+            this.btnthem.Size = new System.Drawing.Size(103, 46);
+            this.btnthem.TabIndex = 6;
+            this.btnthem.Text = "Thêm";
+            this.btnthem.UseVisualStyleBackColor = true;
+            this.btnthem.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnxoa
+            // 
+            this.btnxoa.Location = new System.Drawing.Point(218, 296);
+            this.btnxoa.Name = "btnxoa";
+            this.btnxoa.Size = new System.Drawing.Size(102, 46);
+            this.btnxoa.TabIndex = 7;
+            this.btnxoa.Text = "Xóa";
+            this.btnxoa.UseVisualStyleBackColor = true;
+            this.btnxoa.Click += new System.EventHandler(this.btnxoa_Click);
             // 
             // fdangkyphong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1039, 579);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnxoa);
+            this.Controls.Add(this.btnthem);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
@@ -254,6 +266,7 @@ namespace QuanLyKyTucXa
         private System.Windows.Forms.TextBox txtSLReal;
         private System.Windows.Forms.TextBox txtdaynha;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnthem;
+        private System.Windows.Forms.Button btnxoa;
     }
 }

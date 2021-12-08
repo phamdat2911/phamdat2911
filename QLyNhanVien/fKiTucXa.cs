@@ -59,5 +59,17 @@ namespace QuanLyKyTucXa
             fdangkyphong frm = new fdangkyphong();
             frm.Show();
         }
+
+        private void tìmKiếmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ftimkiem frm = new ftimkiem();
+            frm.Show();
+        }
+
+        private void thôngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fThongke_PhongNotFull frm = new fThongke_PhongNotFull();
+            frm.Show();
+        }
     }
 }

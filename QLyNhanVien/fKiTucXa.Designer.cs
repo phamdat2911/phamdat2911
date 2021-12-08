@@ -40,6 +40,8 @@ namespace QuanLyKyTucXa
             this.quảnLýPhòngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nghiệpVụToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngKýThuêPhòngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tìmKiếmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thôngKêToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -123,7 +125,9 @@ namespace QuanLyKyTucXa
             // nghiệpVụToolStripMenuItem
             // 
             this.nghiệpVụToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.đăngKýThuêPhòngToolStripMenuItem});
+            this.đăngKýThuêPhòngToolStripMenuItem,
+            this.tìmKiếmToolStripMenuItem,
+            this.thôngKêToolStripMenuItem});
             this.nghiệpVụToolStripMenuItem.Name = "nghiệpVụToolStripMenuItem";
             this.nghiệpVụToolStripMenuItem.Size = new System.Drawing.Size(91, 24);
             this.nghiệpVụToolStripMenuItem.Text = "Nghiệp vụ";
@@ -134,6 +138,20 @@ namespace QuanLyKyTucXa
             this.đăngKýThuêPhòngToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
             this.đăngKýThuêPhòngToolStripMenuItem.Text = "Đăng ký thuê phòng";
             this.đăngKýThuêPhòngToolStripMenuItem.Click += new System.EventHandler(this.đăngKýThuêPhòngToolStripMenuItem_Click);
+            // 
+            // tìmKiếmToolStripMenuItem
+            // 
+            this.tìmKiếmToolStripMenuItem.Name = "tìmKiếmToolStripMenuItem";
+            this.tìmKiếmToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
+            this.tìmKiếmToolStripMenuItem.Text = "Tìm Kiếm";
+            this.tìmKiếmToolStripMenuItem.Click += new System.EventHandler(this.tìmKiếmToolStripMenuItem_Click);
+            // 
+            // thôngKêToolStripMenuItem
+            // 
+            this.thôngKêToolStripMenuItem.Name = "thôngKêToolStripMenuItem";
+            this.thôngKêToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
+            this.thôngKêToolStripMenuItem.Text = "Thống Kê";
+            this.thôngKêToolStripMenuItem.Click += new System.EventHandler(this.thôngKêToolStripMenuItem_Click);
             // 
             // fKiTucXa
             // 
@@ -166,5 +184,7 @@ namespace QuanLyKyTucXa
         private System.Windows.Forms.ToolStripMenuItem quảnLýNhânViênToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quảnLýPhòngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem đăngKýThuêPhòngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tìmKiếmToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thôngKêToolStripMenuItem;
     }
 }

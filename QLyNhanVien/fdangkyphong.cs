@@ -78,6 +78,20 @@ namespace QuanLyKyTucXa
             cmd1.ExecuteNonQuery();
             load1();
             conn.Close();
+            txtmsv.Text = "";
+            MessageBox.Show("Đã thêm sinh viên vào phòng " + cbbdanhsachphong.Text);
+        }
+
+        private void btnxoa_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string query1 = string.Format("delete from dangkythuephong where Masv = '{0}'", txtmsv.Text);
+            SqlCommand cmd1 = new SqlCommand(query1, conn);
+            cmd1.ExecuteNonQuery();
+            load1();
+            conn.Close();
+            txtmsv.Text = "";
+            MessageBox.Show("Đã xóa sinh viên khỏi phòng " + cbbdanhsachphong.Text);
         }
     }
 }
