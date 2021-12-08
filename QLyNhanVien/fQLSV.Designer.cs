@@ -30,12 +30,12 @@ namespace QuanLyKyTucXa
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dvgNSSV = new System.Windows.Forms.DateTimePicker();
-            this.cbGioiTinhSV = new System.Windows.Forms.ComboBox();
-            this.txtQueSV = new System.Windows.Forms.TextBox();
-            this.txtSoDTSV = new System.Windows.Forms.TextBox();
-            this.txtTenSV = new System.Windows.Forms.TextBox();
-            this.txtMaSV = new System.Windows.Forms.TextBox();
+            this.dtpDob = new System.Windows.Forms.DateTimePicker();
+            this.cbbsex = new System.Windows.Forms.ComboBox();
+            this.txtdiachi = new System.Windows.Forms.TextBox();
+            this.txtsdt = new System.Windows.Forms.TextBox();
+            this.txtnamesv = new System.Windows.Forms.TextBox();
+            this.txtmsv = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -44,10 +44,8 @@ namespace QuanLyKyTucXa
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnthoat = new System.Windows.Forms.Button();
-            this.btnluu = new System.Windows.Forms.Button();
             this.btnxoa = new System.Windows.Forms.Button();
             this.btnsua = new System.Windows.Forms.Button();
-            this.btnthem = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.MaSV = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -56,6 +54,7 @@ namespace QuanLyKyTucXa
             this.GioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SoDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnthem = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -63,12 +62,12 @@ namespace QuanLyKyTucXa
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dvgNSSV);
-            this.groupBox1.Controls.Add(this.cbGioiTinhSV);
-            this.groupBox1.Controls.Add(this.txtQueSV);
-            this.groupBox1.Controls.Add(this.txtSoDTSV);
-            this.groupBox1.Controls.Add(this.txtTenSV);
-            this.groupBox1.Controls.Add(this.txtMaSV);
+            this.groupBox1.Controls.Add(this.dtpDob);
+            this.groupBox1.Controls.Add(this.cbbsex);
+            this.groupBox1.Controls.Add(this.txtdiachi);
+            this.groupBox1.Controls.Add(this.txtsdt);
+            this.groupBox1.Controls.Add(this.txtnamesv);
+            this.groupBox1.Controls.Add(this.txtmsv);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label7);
@@ -83,65 +82,60 @@ namespace QuanLyKyTucXa
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sinh viên";
             // 
-            // dvgNSSV
+            // dtpDob
             // 
-            this.dvgNSSV.CustomFormat = "dd/MM/yyyy";
-            this.dvgNSSV.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dvgNSSV.Location = new System.Drawing.Point(146, 142);
-            this.dvgNSSV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.dvgNSSV.Name = "dvgNSSV";
-            this.dvgNSSV.Size = new System.Drawing.Size(241, 30);
-            this.dvgNSSV.TabIndex = 3;
+            this.dtpDob.CustomFormat = "dd/MM/yyyy";
+            this.dtpDob.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpDob.Location = new System.Drawing.Point(146, 142);
+            this.dtpDob.Margin = new System.Windows.Forms.Padding(2);
+            this.dtpDob.Name = "dtpDob";
+            this.dtpDob.Size = new System.Drawing.Size(241, 30);
+            this.dtpDob.TabIndex = 3;
             // 
-            // cbGioiTinhSV
+            // cbbsex
             // 
-            this.cbGioiTinhSV.Enabled = false;
-            this.cbGioiTinhSV.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cbGioiTinhSV.FormattingEnabled = true;
-            this.cbGioiTinhSV.Items.AddRange(new object[] {
+            this.cbbsex.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cbbsex.FormattingEnabled = true;
+            this.cbbsex.Items.AddRange(new object[] {
             "Nam",
             "Nữ"});
-            this.cbGioiTinhSV.Location = new System.Drawing.Point(549, 58);
-            this.cbGioiTinhSV.Name = "cbGioiTinhSV";
-            this.cbGioiTinhSV.Size = new System.Drawing.Size(240, 28);
-            this.cbGioiTinhSV.TabIndex = 2;
-            this.cbGioiTinhSV.Text = "Chọn ";
+            this.cbbsex.Location = new System.Drawing.Point(549, 58);
+            this.cbbsex.Name = "cbbsex";
+            this.cbbsex.Size = new System.Drawing.Size(240, 28);
+            this.cbbsex.TabIndex = 2;
+            this.cbbsex.Text = "Chọn ";
             // 
-            // txtQueSV
+            // txtdiachi
             // 
-            this.txtQueSV.Enabled = false;
-            this.txtQueSV.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtQueSV.Location = new System.Drawing.Point(548, 101);
-            this.txtQueSV.Name = "txtQueSV";
-            this.txtQueSV.Size = new System.Drawing.Size(241, 27);
-            this.txtQueSV.TabIndex = 1;
+            this.txtdiachi.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtdiachi.Location = new System.Drawing.Point(548, 101);
+            this.txtdiachi.Name = "txtdiachi";
+            this.txtdiachi.Size = new System.Drawing.Size(241, 27);
+            this.txtdiachi.TabIndex = 1;
             // 
-            // txtSoDTSV
+            // txtsdt
             // 
-            this.txtSoDTSV.Enabled = false;
-            this.txtSoDTSV.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtSoDTSV.Location = new System.Drawing.Point(548, 144);
-            this.txtSoDTSV.Name = "txtSoDTSV";
-            this.txtSoDTSV.Size = new System.Drawing.Size(241, 27);
-            this.txtSoDTSV.TabIndex = 1;
+            this.txtsdt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtsdt.Location = new System.Drawing.Point(548, 144);
+            this.txtsdt.Name = "txtsdt";
+            this.txtsdt.Size = new System.Drawing.Size(241, 27);
+            this.txtsdt.TabIndex = 1;
             // 
-            // txtTenSV
+            // txtnamesv
             // 
-            this.txtTenSV.Enabled = false;
-            this.txtTenSV.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtTenSV.Location = new System.Drawing.Point(146, 101);
-            this.txtTenSV.Name = "txtTenSV";
-            this.txtTenSV.Size = new System.Drawing.Size(241, 27);
-            this.txtTenSV.TabIndex = 1;
+            this.txtnamesv.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtnamesv.Location = new System.Drawing.Point(146, 101);
+            this.txtnamesv.Name = "txtnamesv";
+            this.txtnamesv.Size = new System.Drawing.Size(241, 27);
+            this.txtnamesv.TabIndex = 1;
             // 
-            // txtMaSV
+            // txtmsv
             // 
-            this.txtMaSV.Enabled = false;
-            this.txtMaSV.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtMaSV.Location = new System.Drawing.Point(146, 54);
-            this.txtMaSV.Name = "txtMaSV";
-            this.txtMaSV.Size = new System.Drawing.Size(161, 27);
-            this.txtMaSV.TabIndex = 1;
+            this.txtmsv.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtmsv.Location = new System.Drawing.Point(146, 54);
+            this.txtmsv.Name = "txtmsv";
+            this.txtmsv.Size = new System.Drawing.Size(161, 27);
+            this.txtmsv.TabIndex = 1;
             // 
             // label4
             // 
@@ -216,25 +210,16 @@ namespace QuanLyKyTucXa
             // 
             // btnthoat
             // 
-            this.btnthoat.Location = new System.Drawing.Point(785, 323);
+            this.btnthoat.Location = new System.Drawing.Point(700, 323);
             this.btnthoat.Name = "btnthoat";
             this.btnthoat.Size = new System.Drawing.Size(99, 45);
             this.btnthoat.TabIndex = 4;
             this.btnthoat.Text = "Thoát";
             this.btnthoat.UseVisualStyleBackColor = true;
             // 
-            // btnluu
-            // 
-            this.btnluu.Location = new System.Drawing.Point(603, 323);
-            this.btnluu.Name = "btnluu";
-            this.btnluu.Size = new System.Drawing.Size(99, 45);
-            this.btnluu.TabIndex = 5;
-            this.btnluu.Text = "Lưu";
-            this.btnluu.UseVisualStyleBackColor = true;
-            // 
             // btnxoa
             // 
-            this.btnxoa.Location = new System.Drawing.Point(420, 323);
+            this.btnxoa.Location = new System.Drawing.Point(494, 323);
             this.btnxoa.Name = "btnxoa";
             this.btnxoa.Size = new System.Drawing.Size(99, 45);
             this.btnxoa.TabIndex = 6;
@@ -243,29 +228,20 @@ namespace QuanLyKyTucXa
             // 
             // btnsua
             // 
-            this.btnsua.Location = new System.Drawing.Point(242, 323);
+            this.btnsua.Location = new System.Drawing.Point(317, 323);
             this.btnsua.Name = "btnsua";
             this.btnsua.Size = new System.Drawing.Size(99, 45);
             this.btnsua.TabIndex = 7;
             this.btnsua.Text = "Sửa";
             this.btnsua.UseVisualStyleBackColor = true;
             // 
-            // btnthem
-            // 
-            this.btnthem.Location = new System.Drawing.Point(56, 323);
-            this.btnthem.Name = "btnthem";
-            this.btnthem.Size = new System.Drawing.Size(99, 45);
-            this.btnthem.TabIndex = 8;
-            this.btnthem.Text = "Thêm";
-            this.btnthem.UseVisualStyleBackColor = true;
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dataGridView1);
             this.groupBox2.Location = new System.Drawing.Point(54, 382);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(845, 272);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
@@ -282,7 +258,7 @@ namespace QuanLyKyTucXa
             this.DiaChi,
             this.SoDT});
             this.dataGridView1.Location = new System.Drawing.Point(2, 22);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 33;
@@ -337,22 +313,32 @@ namespace QuanLyKyTucXa
             this.SoDT.MinimumWidth = 8;
             this.SoDT.Name = "SoDT";
             // 
+            // btnthem
+            // 
+            this.btnthem.Location = new System.Drawing.Point(136, 323);
+            this.btnthem.Name = "btnthem";
+            this.btnthem.Size = new System.Drawing.Size(101, 45);
+            this.btnthem.TabIndex = 10;
+            this.btnthem.Text = "Thêm";
+            this.btnthem.UseVisualStyleBackColor = true;
+            this.btnthem.Click += new System.EventHandler(this.btnthem_Click);
+            // 
             // fQLSV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(916, 665);
+            this.Controls.Add(this.btnthem);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnthoat);
-            this.Controls.Add(this.btnluu);
             this.Controls.Add(this.btnxoa);
             this.Controls.Add(this.btnsua);
-            this.Controls.Add(this.btnthem);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "fQLSV";
             this.Text = "fQLSV";
+            this.Load += new System.EventHandler(this.fQLSV_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -365,12 +351,12 @@ namespace QuanLyKyTucXa
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DateTimePicker dvgNSSV;
-        private System.Windows.Forms.ComboBox cbGioiTinhSV;
-        private System.Windows.Forms.TextBox txtQueSV;
-        private System.Windows.Forms.TextBox txtSoDTSV;
-        private System.Windows.Forms.TextBox txtTenSV;
-        private System.Windows.Forms.TextBox txtMaSV;
+        private System.Windows.Forms.DateTimePicker dtpDob;
+        private System.Windows.Forms.ComboBox cbbsex;
+        private System.Windows.Forms.TextBox txtdiachi;
+        private System.Windows.Forms.TextBox txtsdt;
+        private System.Windows.Forms.TextBox txtnamesv;
+        private System.Windows.Forms.TextBox txtmsv;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
@@ -379,10 +365,8 @@ namespace QuanLyKyTucXa
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnthoat;
-        private System.Windows.Forms.Button btnluu;
         private System.Windows.Forms.Button btnxoa;
         private System.Windows.Forms.Button btnsua;
-        private System.Windows.Forms.Button btnthem;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaSV;
@@ -391,5 +375,6 @@ namespace QuanLyKyTucXa
         private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn DiaChi;
         private System.Windows.Forms.DataGridViewTextBoxColumn SoDT;
+        private System.Windows.Forms.Button btnthem;
     }
 }

@@ -47,5 +47,17 @@ namespace QuanLyKyTucXa
             fQLSV frm = new fQLSV();
             frm.Show();
         }
+
+        private void quảnLýPhòngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fphong frm = new fphong();
+            frm.Show(); 
+        }
+
+        private void đăngKýThuêPhòngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fdangkyphong frm = new fdangkyphong();
+            frm.Show();
+        }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\phamdat2911-main (1)\\phamdat2911-main\\QuanLyKyTucXa\\QuanLyKyTucXa.csproj": {}
+    "C:\\Users\\phamd\\Desktop\\phamdat2911\\QLyNhanVien\\QuanLyKyTucXa.csproj": {}
   },
   "projects": {
-    "E:\\phamdat2911-main (1)\\phamdat2911-main\\QuanLyKyTucXa\\QuanLyKyTucXa.csproj": {
+    "C:\\Users\\phamd\\Desktop\\phamdat2911\\QLyNhanVien\\QuanLyKyTucXa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\phamdat2911-main (1)\\phamdat2911-main\\QuanLyKyTucXa\\QuanLyKyTucXa.csproj",
+        "projectUniqueName": "C:\\Users\\phamd\\Desktop\\phamdat2911\\QLyNhanVien\\QuanLyKyTucXa.csproj",
         "projectName": "QuanLyKyTucXa",
-        "projectPath": "E:\\phamdat2911-main (1)\\phamdat2911-main\\QuanLyKyTucXa\\QuanLyKyTucXa.csproj",
+        "projectPath": "C:\\Users\\phamd\\Desktop\\phamdat2911\\QLyNhanVien\\QuanLyKyTucXa.csproj",
         "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
-        "outputPath": "E:\\phamdat2911-main (1)\\phamdat2911-main\\QuanLyKyTucXa\\obj\\",
+        "outputPath": "C:\\Users\\phamd\\Desktop\\phamdat2911\\QLyNhanVien\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",

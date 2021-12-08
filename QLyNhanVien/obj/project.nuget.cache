@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VzejXIX4vahdRe6JeySxPMJlrGahhBRHTPeFmW4iabiI+ltvS7LuZ+wu5KLRgleIuPLm9f4QEXl5FFv/TQj0KA==",
+  "dgSpecHash": "ROA/Y4jBObvPT47KGi/8VCmXKvfpouAWJFfrXFRrAMyrkz0Mmsh4oEOw1gamGMBuBAIw1U44rgdHZ9wzb0ePYg==",
   "success": true,
-  "projectFilePath": "E:\\phamdat2911-main (1)\\phamdat2911-main\\QuanLyKyTucXa\\QuanLyKyTucXa.csproj",
+  "projectFilePath": "C:\\Users\\phamd\\Desktop\\phamdat2911\\QLyNhanVien\\QuanLyKyTucXa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phamd\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\phamd\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
