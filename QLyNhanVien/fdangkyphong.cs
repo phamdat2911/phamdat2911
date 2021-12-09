@@ -72,14 +72,50 @@ namespace QuanLyKyTucXa
 
         private void button1_Click(object sender, EventArgs e)
         {
-            conn.Open();
-            string query1 = string.Format("insert into dangkythuephong values('{0}', {1})", cbbdanhsachphong.Text, txtmsv.Text);
-            SqlCommand cmd1 = new SqlCommand(query1, conn);
-            cmd1.ExecuteNonQuery();
-            load1();
-            conn.Close();
-            txtmsv.Text = "";
-            MessageBox.Show("Đã thêm sinh viên vào phòng " + cbbdanhsachphong.Text);
+            if(txtSLReal.Text == txtSLMax.Text)
+            {
+                MessageBox.Show("Phòng này đã đầy!!!");
+                return;
+            }
+            else
+            {
+                int kt = 1;
+                conn.Open();
+                string s = "select MaSV from dangkythuephong";
+                SqlCommand cmd = new SqlCommand(s, conn);
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                conn.Close();
+                foreach (DataRow dr in dt.Rows)
+                {
+                    if (dr["MaSV"].ToString() == txtmsv.Text)
+                    {
+                        kt = 0;
+                        break;
+                    }
+                    else
+                    {
+                        kt = 1;
+                    }
+                }
+                if (kt == 1)
+                {
+                    conn.Open();
+                    string query1 = string.Format("insert into dangkythuephong values('{0}', {1})", cbbdanhsachphong.Text, txtmsv.Text);
+                    SqlCommand cmd1 = new SqlCommand(query1, conn);
+                    cmd1.ExecuteNonQuery();
+                    load1();
+                    conn.Close();
+                    txtmsv.Text = "";
+                    MessageBox.Show("Đã thêm sinh viên vào phòng " + cbbdanhsachphong.Text);
+                }
+                else
+                {
+                    MessageBox.Show("Sinh viên này đã có phòng!!!");
+                }
+            }
+            
         }
 
         private void btnxoa_Click(object sender, EventArgs e)

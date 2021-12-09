@@ -84,12 +84,13 @@ namespace QuanLyKyTucXa
             // 
             // dtpDob
             // 
-            this.dtpDob.CustomFormat = "dd/MM/yyyy";
+            this.dtpDob.CustomFormat = "yyyy-MM-dd";
+            this.dtpDob.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dtpDob.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpDob.Location = new System.Drawing.Point(146, 142);
             this.dtpDob.Margin = new System.Windows.Forms.Padding(2);
             this.dtpDob.Name = "dtpDob";
-            this.dtpDob.Size = new System.Drawing.Size(241, 30);
+            this.dtpDob.Size = new System.Drawing.Size(241, 27);
             this.dtpDob.TabIndex = 3;
             // 
             // cbbsex

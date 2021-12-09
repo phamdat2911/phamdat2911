@@ -135,3 +135,5 @@ C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\QuanLyKy
 C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\QuanLyKyTucXa.ftimkiem.resources
 C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\QuanLyKyTucXa.fThongke_PhongNotFull.resources
 C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\QuanLyKyTucXa.fthongkesinhvientheophong.resources
+C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\QuanLyKyTucXa.fthanhtoan.resources
+C:\Users\phamd\Desktop\phamdat2911\QLyNhanVien\obj\Debug\net5.0-windows\QuanLyKyTucXa.fHoaDon_DienNuoc.resources

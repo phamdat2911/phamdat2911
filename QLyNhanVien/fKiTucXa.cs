@@ -71,5 +71,17 @@ namespace QuanLyKyTucXa
             fThongke_PhongNotFull frm = new fThongke_PhongNotFull();
             frm.Show();
         }
+
+        private void thanhToánToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fthanhtoan frm = new fthanhtoan();
+            frm.Show();
+        }
+
+        private void quảnLýHóaĐơnĐiệnNướcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fHoaDon_DienNuoc frm = new fHoaDon_DienNuoc();
+            frm.Show();
+        }
     }
 }
