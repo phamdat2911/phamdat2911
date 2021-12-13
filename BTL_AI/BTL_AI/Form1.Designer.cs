@@ -37,11 +37,11 @@ namespace BTL_AI
             this.btngiaithich = new System.Windows.Forms.Button();
             this.btntiep = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnkt = new System.Windows.Forms.Button();
+            this.txtkq = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -86,6 +86,7 @@ namespace BTL_AI
             this.btnxacnhan.TabIndex = 1;
             this.btnxacnhan.Text = "Xác nhận";
             this.btnxacnhan.UseVisualStyleBackColor = true;
+            this.btnxacnhan.Click += new System.EventHandler(this.btnxacnhan_Click);
             // 
             // cbbtraloi
             // 
@@ -106,6 +107,7 @@ namespace BTL_AI
             this.btngiaithich.TabIndex = 2;
             this.btngiaithich.Text = "Giải thích";
             this.btngiaithich.UseVisualStyleBackColor = true;
+            this.btngiaithich.Click += new System.EventHandler(this.btngiaithich_Click);
             // 
             // btntiep
             // 
@@ -120,7 +122,8 @@ namespace BTL_AI
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.pictureBox1);
+            this.groupBox3.Controls.Add(this.btnkt);
+            this.groupBox3.Controls.Add(this.txtkq);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox3.Location = new System.Drawing.Point(472, 34);
             this.groupBox3.Name = "groupBox3";
@@ -129,13 +132,23 @@ namespace BTL_AI
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Kết quả";
             // 
-            // pictureBox1
+            // btnkt
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(338, 59);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(207, 298);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.btnkt.Location = new System.Drawing.Point(261, 357);
+            this.btnkt.Name = "btnkt";
+            this.btnkt.Size = new System.Drawing.Size(94, 48);
+            this.btnkt.TabIndex = 1;
+            this.btnkt.Text = "Kiểm tra";
+            this.btnkt.UseVisualStyleBackColor = true;
+            this.btnkt.Click += new System.EventHandler(this.btnkt_Click);
+            // 
+            // txtkq
+            // 
+            this.txtkq.Location = new System.Drawing.Point(37, 30);
+            this.txtkq.Multiline = true;
+            this.txtkq.Name = "txtkq";
+            this.txtkq.Size = new System.Drawing.Size(444, 304);
+            this.txtkq.TabIndex = 0;
             // 
             // Form1
             // 
@@ -149,11 +162,12 @@ namespace BTL_AI
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -168,7 +182,8 @@ namespace BTL_AI
         private System.Windows.Forms.Button btngiaithich;
         private System.Windows.Forms.Button btntiep;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnkt;
+        private System.Windows.Forms.TextBox txtkq;
     }
 }
 
