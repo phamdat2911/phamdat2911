@@ -21,3 +21,84 @@ C:\Users\phamd\source\repos\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.dll
 C:\Users\phamd\source\repos\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.pdb
 C:\Users\phamd\source\repos\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.genruntimeconfig.cache
 C:\Users\phamd\source\repos\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.fgiaithich.resources
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.exe
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.deps.json
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.runtimeconfig.json
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.runtimeconfig.dev.json
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.dll
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.pdb
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.csproj.AssemblyReference.cache
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.fgiaithich.resources
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.Form1.resources
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.csproj.GenerateResource.cache
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.AssemblyInfoInputs.cache
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.AssemblyInfo.cs
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.csproj.CoreCompileInputs.cache
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.csproj.CopyComplete
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.dll
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.pdb
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.genruntimeconfig.cache
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.Properties.Resources.resources
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.fLuat.resources
+C:\Users\TIEN DAT\Downloads\phamdat2911-main (1)\phamdat2911-main\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.fSanPham.resources
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.exe
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.deps.json
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.runtimeconfig.json
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.runtimeconfig.dev.json
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.dll
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.pdb
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.csproj.AssemblyReference.cache
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.fgiaithich.resources
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.fLuat.resources
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.Form1.resources
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.fSanPham.resources
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.Properties.Resources.resources
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.csproj.GenerateResource.cache
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.AssemblyInfoInputs.cache
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.AssemblyInfo.cs
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.csproj.CoreCompileInputs.cache
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.csproj.CopyComplete
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.dll
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.pdb
+C:\Users\TIEN DAT\Downloads\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.genruntimeconfig.cache
+D:\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.exe
+D:\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.deps.json
+D:\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.runtimeconfig.json
+D:\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.runtimeconfig.dev.json
+D:\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.dll
+D:\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\BTL_AI.pdb
+D:\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\BTL_AI\BTL_AI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.csproj.AssemblyReference.cache
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.fgiaithich.resources
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.fLuat.resources
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.Form1.resources
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.Form2.resources
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.fSanPham.resources
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.Properties.Resources.resources
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.csproj.GenerateResource.cache
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.AssemblyInfoInputs.cache
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.AssemblyInfo.cs
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.csproj.CoreCompileInputs.cache
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.dll
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.pdb
+D:\BTL_AI\BTL_AI\obj\Debug\netcoreapp3.1\BTL_AI.genruntimeconfig.cache

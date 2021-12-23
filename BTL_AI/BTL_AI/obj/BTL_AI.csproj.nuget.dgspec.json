@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\phamd\\source\\repos\\BTL_AI\\BTL_AI\\BTL_AI.csproj": {}
+    "D:\\BTL_AI\\BTL_AI\\BTL_AI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\phamd\\source\\repos\\BTL_AI\\BTL_AI\\BTL_AI.csproj": {
+    "D:\\BTL_AI\\BTL_AI\\BTL_AI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phamd\\source\\repos\\BTL_AI\\BTL_AI\\BTL_AI.csproj",
+        "projectUniqueName": "D:\\BTL_AI\\BTL_AI\\BTL_AI.csproj",
         "projectName": "BTL_AI",
-        "projectPath": "C:\\Users\\phamd\\source\\repos\\BTL_AI\\BTL_AI\\BTL_AI.csproj",
+        "projectPath": "D:\\BTL_AI\\BTL_AI\\BTL_AI.csproj",
         "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phamd\\source\\repos\\BTL_AI\\BTL_AI\\obj\\",
+        "outputPath": "D:\\BTL_AI\\BTL_AI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",

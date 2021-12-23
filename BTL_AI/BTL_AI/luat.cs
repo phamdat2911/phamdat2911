@@ -6,19 +6,19 @@ namespace BTL_AI
 {
     class luat
     {
-        string mota;
+        string maluat;
         public luat(string s) {
-            mota = s;
+            maluat = s;
         }
 
-        public void set(string mota)
+        public void set(string maluat)
         {
-            this.mota = mota;
+            this.maluat = maluat;
         }
 
         public string get()
         {
-            return this.mota;
+            return this.maluat;
         }
     }
 }

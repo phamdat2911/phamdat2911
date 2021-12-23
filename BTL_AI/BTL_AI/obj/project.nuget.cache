@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "asH2DAnCo+16JWBu7F+y2sruHTsv6nL748+r1Rd2EvebtEddYXBKQHESveL3tniMW6GQMzr2vfs43rq7hW4DEg==",
+  "dgSpecHash": "u/6FkmAxij0QPwCP9ebRVxLXNGzlpn00uf4QKMShEH45qOBibjEc4ML//ctU2x7Zvny1i0SyTe6iPwEqr8Y05Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\phamd\\source\\repos\\BTL_AI\\BTL_AI\\BTL_AI.csproj",
+  "projectFilePath": "D:\\BTL_AI\\BTL_AI\\BTL_AI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phamd\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\phamd\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
